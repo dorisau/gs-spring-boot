@@ -7,11 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="spring-boot" />
-        <module name="initial" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="complete" target="1.8" />
+      <module name="initial" target="1.8" />
+      <module name="spring-boot-initial" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -19,6 +20,7 @@
       <module name="complete" options="-parameters" />
       <module name="initial" options="-parameters" />
       <module name="spring-boot" options="-parameters" />
+      <module name="spring-boot-initial" options="-parameters" />
     </option>
   </component>
 </project>
